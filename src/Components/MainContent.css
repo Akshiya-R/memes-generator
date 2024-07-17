@@ -1,0 +1,87 @@
+.main{
+    margin: 40px 30px;
+}
+
+.inputs{
+    display: flex;
+    width: 50%;
+    justify-content:space-around;
+    margin: 0px auto;
+
+}
+.inputs div{
+    margin: 0px;
+}
+.meme {
+    position: relative;
+}
+
+.meme--image {
+    max-width: 100%;
+    border-radius: 3px;
+}
+
+.meme--text {
+    position: absolute;
+    width: 80%;
+    text-align: center;
+    left: 50%;
+    transform: translateX(-50%);
+    margin: 15px 0;
+    padding: 0 5px;
+    font-family: impact, sans-serif;
+    font-size: 2em;
+    text-transform: uppercase;
+    color: white;
+    letter-spacing: 1px;
+    text-shadow:
+        2px 2px 0 #000,
+        -2px -2px 0 #000,
+        2px -2px 0 #000,
+        -2px 2px 0 #000,
+        0 2px 0 #000,
+        2px 0 0 #000,
+        0 -2px 0 #000,
+        -2px 0 0 #000,
+        2px 2px 5px #000;
+}
+
+.bottom {
+    bottom: 0;
+}
+
+.top {
+    top: 0;
+}
+
+
+.inputs div p{
+    margin-bottom: 5px;
+}
+
+.main button{
+    margin: 20px auto;
+    width: 420px;
+    display: block;
+    height: 40px;
+    border: 1px solid white;
+    background-color: rgb(217, 222, 120);
+    color: black;
+    font-weight: bolder;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.main img{
+    width: 50%;
+    display: block;
+    margin: 10px auto;
+}
+
+.img-btn:hover{
+     background-color: rgb(201, 187, 66);
+}
+.img-btn:active{
+    background-color: rgb(201, 187, 66);
+    border: 2px solid rgb(217, 222, 120);
+}

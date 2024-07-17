@@ -1,0 +1,12 @@
+.nav-bar{
+    display:flex;
+    margin: 20px;
+    /* padding: 20px; */
+    background-color: rgb(195, 185, 109);
+    color: rgb(82, 47, 4);
+
+}
+.nav-bar img{
+    width: 80px;
+    margin-right: 10px;
+}
